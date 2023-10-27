@@ -1,0 +1,64 @@
+function sin() {
+    document.calculator.result.value = Math.sin(document.calculator.result.value);
+}
+function cos() {
+    document.calculator.result.value = Math.cos(document.calculator.result.value);
+}
+function tan() {
+    document.calculator.result.value = Math.tan(document.calculator.result.value);
+}
+function BACKSPC() {
+    var a = document.calculator.result.value;
+    document.calculator.result.value = a.substr(0, a.length-1);
+
+}
+function square(){
+    document.calculator.result.value = Math.pow(document.calculator.result.value, 2);
+
+}
+function qubbed(){
+    document.calculator.result.value = Math.pow(document.calculator.result.value, 3);
+
+}
+function sqrt2(){
+    document.calculator.result.value = Math.pow(document.calculator.result.value, 1/2);
+
+}
+function sqrt3(){
+    document.calculator.result.value = Math.pow(document.calculator.result.value, 1/3);
+
+}
+function number(value){
+    document.calculator.result.value += value;
+
+}
+function remv(){
+    document.calculator.result.value= "";
+}
+function equal(){
+    document.calculator.result.value = eval(document.calculator.result.value);
+}
+function sinh(){
+    document.calculator.result.value = Math.sinh(document.calculator.result.value);
+}
+function cosh(){
+    document.calculator.result.value = Math.cosh(document.calculator.result.value);
+}
+function tanh(){
+    document.calculator.result.value = Math.tanh(document.calculator.result.value);
+}
+function log10(){
+    document.calculator.result.value = Math.log10(document.calculator.result.value);
+}
+function log2(){
+    document.calculator.result.value = Math.log2(document.calculator.result.value);
+}
+function asin(){
+    document.calculator.result.value = Math.asin(document.calculator.result.value);
+}
+function acos(){
+    document.calculator.result.value = Math.acos(document.calculator.result.value);
+}
+function atan(){
+    document.calculator.result.value = Math.atan(document.calculator.result.value);
+}

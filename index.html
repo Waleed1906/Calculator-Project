@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  
+</style>
+
+<body>
+    <form name="calculator">
+        <table align="center">
+            <tr>
+                <td colspan="4"><input type="text" name="result" placeholder="0"></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="sin" onclick="sin()">sin</button></td>
+                <td><button type="button" value="cos" onclick="cos()">cos</button></td>
+                <td><button type="button" value="tan" onclick="tan()">tan</button></td>
+                <td><button type="button" value="C" onclick="remv(value)" class="clear">C</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="x^2" onclick="square()">x<sup>2</sup></button></td>
+                <td><button type="button" value="x^3" onclick="qubbed()">x<sup>3</sup></button></td>
+                <td><button type="button" value="sqrt2" onclick="sqrt2()">&radic;</button></td>
+                <td><button type="button" value="sqrt3" onclick="sqrt3()">&#8731;</button></td>
+            </tr>
+            
+            
+            
+            <tr>
+                <td><button type="button" value="sinh" onclick="sinh()">sinh</button></td>
+                <td><button type="button" value="cosh" onclick="cosh()">cosh</button></td>
+                <td><button type="button" value="tanh" onclick="tanh()">tanh</button></td>
+                <td><button type="button" value="PI" onclick="PI()"> &Pi; </button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="asinh" onclick="asinh()">sinh<sup>-1</sup></button></td>
+                <td><button type="button" value="acosh" onclick="acosh()">cosh<sup>-1</sup></button></td>
+                <td><button type="button" value="atanh" onclick="atanh()">tanh<sup>-1</sup></button></td>
+                <td><button type="button" value="log2" onclick="log2()">Ln<sub>2</sub></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="log10" onclick="log10()">Ln<sub>10</sub></button></td>
+                <td><button type="button"value="asin" onclick="asin()">sin<sup>-1</sup></button></td>
+                <td><button type="button" value="acos" onclick="acos()">cos<sup>-1</sup></button></td>
+                <td><button type="button" value="atan" onclick="atan()">tan<sup>-1</sup></button></td>
+            </tr>
+            
+            
+
+            <tr>
+                <td><button type="button" value="1" onclick="number(value)">1</button></td>
+                <td><button type="button" value="2" onclick="number(value)">2</button></td>
+                <td><button type="button" value="3" onclick="number(value)">3</button></td>
+                 <td><button type="button" value="BACKSPC" onclick="BACKSPC(value)"> &larr;
+                </button> 
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button" value="4" onclick="number(value)">4</button></td>
+                <td><button type="button" value="5" onclick="number(value)">5</button></td>
+                <td><button type="button" value="6" onclick="number(value)">6</button></td>
+                <td><button type="button" value="-" onclick="number(value)">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="7" onclick="number(value)">7</button></td>
+                <td><button type="button" value="8" onclick="number(value)">8</button></td>
+                <td><button type="button" value="9" onclick="number(value)">9</button></td>
+                <td><button type="button" value="/" onclick="number(value)">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="." onclick="number(value)">.</button></td>
+                <td><button type="button" value="0" onclick="number(value)">0</button></td>
+                <td><button type="button" value="*" onclick="number(value)">*</button></td>
+                <td><button type="button" value="%" onclick="per(value)">%</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="button" value="=" onclick="equal()" class="equal">=</button></td>
+                <td><button type="button" value="+" onclick="number(value)">+</button></td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+<script src="/logic.js"></script>
+</html>

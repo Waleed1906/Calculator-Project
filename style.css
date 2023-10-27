@@ -1,0 +1,67 @@
+body {
+    padding: 50px 0px;
+    background: radial-gradient(#e7540e, #af574e, black) no-repeat;
+  }
+  
+  button.clear {
+    background: #FF5722;
+    color: #fff;
+  }
+  
+  table {
+    background: #1a0808;
+    padding: 7px 5px;
+    border: 6px solid #3c0909;
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 27px #af574e;
+    border-radius: 10px;
+    margin-top: 90px;
+  }
+  
+  button.equal {
+    width: 88%;
+    background: #461505;
+  }
+  
+  button.equal:hover {
+    background: #232b3b;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    max-width: 450px;
+    height: 81px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 29px;
+    background: #0c1810;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: #dedede;
+    border-bottom: 2px solid #cc4041;
+    color: white;
+    text-align: left;
+  }
+  
+  button {
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 135px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    background: #000803;
+    border: none;
+    color: #c7775e;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #2e1c17;
+  }
+  
